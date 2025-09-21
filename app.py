@@ -10,7 +10,7 @@ st.markdown("---")
 
 # Overview content in a card
 st.markdown("""
-<div style='background-color:#ffffff; padding:20px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0));'>
+<div style='background-color:#ffffff; padding:20px; border-radius:10px; box-shadow:0 2px 8px rgb(0,0,0));'>
     <h3 style='color:#1976D2;'>Overview</h3>
     <p>
         HireSight is an AI-powered web application designed to help placement teams and job seekers by automating resume evaluation.
