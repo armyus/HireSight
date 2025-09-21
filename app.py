@@ -5,7 +5,7 @@ st.set_page_config(page_title="HireSight Overview", layout="centered")
 
 # Title
 st.markdown("<h1 style='text-align:center; color:#1976D2;'>HireSight</h1>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align:center; color:#555;'>Automated Resume Relevance Checker</h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align:center; color:#000000;'>Automated Resume Relevance Checker</h4>", unsafe_allow_html=True)
 st.markdown("---")
 
 # Overview content in a card
