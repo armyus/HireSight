@@ -1,3 +1,14 @@
+import streamlit as st
+
+# Page configuration
+st.set_page_config(page_title="HireSight Overview", layout="centered")
+
+# Title
+st.markdown("<h1 style='text-align:center; color:#1976D2;'>HireSight</h1>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align:center; color:#555;'>Automated Resume Relevance Checker</h4>", unsafe_allow_html=True)
+st.markdown("---")
+
+# Overview content in a card
 st.markdown("""
 <div style='background-color:#ffffff; padding:20px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1);'>
     <h3 style='color:#1976D2;'>Overview</h3>
@@ -17,3 +28,4 @@ st.markdown("""
     </p>
 </div>
 """, unsafe_allow_html=True)
+
